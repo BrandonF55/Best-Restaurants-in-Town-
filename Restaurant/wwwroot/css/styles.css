@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.527)), url("https://cdn.vox-cdn.com/thumbor/00h1THjj2DUwVUm9rOOlciHDrGE=/0x0:3000x2000/1200x900/filters:focal(568x895:1048x1375)/cdn.vox-cdn.com/uploads/chorus_image/image/71200711/202103_MollyJSmith_EaterPDX_oneyearcovid.0040.0.jpg");
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  text-align: center;
+}
+a {
+  color: white;
+  font-size: 1.2rem;
+}
+h1{
+  margin-top: 7%;
+  margin-bottom: 7%;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  font-weight: 800;
+}
+
+#navbar{
+  height: 5rem;
+}
+#navbar a{
+  font-size: 1.6rem;
+}

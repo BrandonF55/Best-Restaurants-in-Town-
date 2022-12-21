@@ -5,18 +5,18 @@ using System.Linq;
 
 namespace BestRestaurant.Controllers
 {
-  public class BestRestaurant : Controller
+  public class RestaurantsController : Controller
   {
     private readonly BestRestaurantContext _db;
 
-    public BestRestaurantController(BestRestaurantContext db)
+    public RestaurantsController(BestRestaurantContext db)
     {
       _db = db;
     }
 
     public ActionResult Index()
     {
-      
+
       return View();
     }
   }
